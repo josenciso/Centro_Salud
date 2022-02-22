@@ -1,0 +1,13 @@
+
+
+
+#cancelar_citas{
+ 
+    display: inline-flex;
+    margin-top: 30px;;
+    border-radius: 100px;
+    background-color: rgb(58, 30, 11);
+    color: rgb(223, 223, 223);
+
+}
+
