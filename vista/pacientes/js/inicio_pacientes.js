@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", function () {
-
+console.log('hola');
 
     //const regex = /(delete)|(--)|(;)|(drop)|(insert)/; //evitar la insercin
     const dni_regex = /^([0-9]{8,8}[A-Za-z])|([XYZ][0-9]{7}[A-Za-z])$/; //dni aunque no cumple todas las expectativas
@@ -33,7 +33,8 @@ window.addEventListener("DOMContentLoaded", function () {
         } 
       });
 
-
-
+let jose;
+console.log(jose)
+jose= 'jose';
 
 });

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hola
+
+<script>
+function saludar(name){
+    console.log(`hola ${name}`);
+}
+function ob(d){
+const name= prompt("Cual es tu nombre")    ;
+d(name);
+}
+ob(saludar);
+
+var tasks = [
+ 
+  {
+ 
+    'name'     : 'Write for Envato Tuts+',
+ 
+    'duration' : 120
+ 
+  },
+ 
+  {
+ 
+    'name'     : 'Work out',
+ 
+    'duration' : 60
+ 
+  },
+ 
+  {
+ 
+    'name'     : 'Procrastinate on Duolingo',
+ 
+    'duration' : 240
+ 
+  }
+ 
+];
+var task_names = tasks.map(function (task) {
+ 
+   return task.duration; 
+
+});
+console.log(task_names)
+
+var total = [1, 2, 3, 4, 5].reduce(function (previous, current, index) {
+    var val = previous + current;
+    console.log("The previous value is " + previous + 
+                "; the current value is " + current +
+                ", and the current iteration is " + (index + 1));
+    return val;
+}, 0);
+ 
+console.log("The loop is done, and the final value is " + total + ".");
+    
+    </script>
+</body>
+</html>
