@@ -1,0 +1,99 @@
+body{
+    background: url('img/gif/pattern-2533144_1920.jpg') 100vh repeat;
+
+}
+
+#loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('img/gif/loader.gif') 50% 50% no-repeat white;
+    opacity: .9;
+}
+
+table{
+   background-color:   #298ce5;
+   width: 300px;
+   height: 300px;
+    border-radius: 1ch;
+    
+} 
+.fc-daygrid-day-number{
+    color: #ffffff;
+    font-size: bold;
+    
+}
+
+.fc-col-header-cell-cushion {
+   color: #ffffff;
+  
+}
+
+.fc-h-event {
+    color:rgb(231, 220, 220);
+    display: block;
+    border: 1px solid #143c66;
+    border: 1px solid #8de265;
+   border-radius: 1cm;
+    background-color: var(--fc-event-bg-color,  #009bdd);
+text-align: center;
+    
+}
+
+.bg-info{
+
+ border-radius: 30px;
+ color :#71DFE7
+}
+   
+   
+#inputGroup-sizing-lg{
+  
+ border-radius: 30px;
+ color :wheat;
+ height: 50px;
+ background-color: #71DFE7;
+  
+    text-align: center!important;
+
+}
+
+#fecha_cita{
+    background-color: #8da5af;
+ 
+    border-radius: 30px;
+    color :rgb(255, 255, 255);
+    height: 50px;
+     
+       text-align: center!important;
+}
+#hora{
+    background-color: #009bdd;
+    border: solid 3px cadetblue;
+    border-radius: 30px;
+    color :rgb(255, 255, 255);
+    height: 50px;
+     
+
+}
+#date_click{
+  
+    border: 0px;
+}
+
+
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    margin: 10px;
+}
+
+
